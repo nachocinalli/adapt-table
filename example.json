@@ -1,0 +1,97 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "propName": "Details",
+  "_showInputs": true,
+  "_items": [
+    {
+      "title": "Solar Power",
+      "_props": [
+        {
+          "label": "Capacity (GW)",
+          "value": "849"
+        },
+        {
+          "label": "Cost per kWh (USD)",
+          "value": "0.05"
+        },
+        {
+          "label": "CO2 Emissions (g/kWh)",
+          "value": "45"
+        },
+        {
+          "label": "Land Use (km²/GW)",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "title": "Wind Power",
+      "_props": [
+        {
+          "label": "Capacity (GW)",
+          "value": "837"
+        },
+        {
+          "label": "Cost per kWh (USD)",
+          "value": "0.04"
+        },
+        {
+          "label": "CO2 Emissions (g/kWh)",
+          "value": "12"
+        },
+        {
+          "label": "Land Use (km²/GW)",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "title": "Hydropower",
+      "_props": [
+        {
+          "label": "Capacity (GW)",
+          "value": "1300"
+        },
+        {
+          "label": "Cost per kWh (USD)",
+          "value": "0.05"
+        },
+        {
+          "label": "CO2 Emissions (g/kWh)",
+          "value": "4"
+        },
+        {
+          "label": "Land Use (km²/GW)",
+          "value": "30"
+        }
+      ]
+    },
+    {
+      "title": "Nuclear Power",
+      "_props": [
+        {
+          "label": "Capacity (GW)",
+          "value": "392"
+        },
+        {
+          "label": "Cost per kWh (USD)",
+          "value": "0.09"
+        },
+        {
+          "label": "CO2 Emissions (g/kWh)",
+          "value": "6"
+        },
+        {
+          "label": "Land Use (km²/GW)",
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": false
+  }
+}

@@ -2,6 +2,12 @@
   "_id": "c-05",
   "_parentId": "b-05",
   "_type": "component",
+  "_component": "table",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Table",
+  "displayTitle": "Table",
+  "body": "",
   "propName": "Details",
   "_showInputs": true,
   "_items": [

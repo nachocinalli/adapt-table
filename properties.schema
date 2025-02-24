@@ -65,6 +65,7 @@
           "_props": {
             "type": "array",
             "required": true,
+            "title": "Props",
             "items": {
               "type": "object",
               "properties": {

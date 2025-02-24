@@ -26,7 +26,7 @@ export default function Table({ _items, propName, _showInputs = true }, ...props
       <div className='component__inner table__inner'>
         <templates.header {...props} />
         <div className='component__widget table__widget'>
-          <p>No hay datos para mostrar.</p>
+          <p>No data to display.</p>
         </div>
       </div>
     );

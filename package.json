@@ -1,0 +1,17 @@
+{
+  "name": "adapt-table",
+  "version": "1.0.0",
+  "framework": ">=5.19.1",
+  "homepage": "https://github.com/nachocinalli/adapt-table",
+  "bugs": "https://github.com/nachocinalli/adapt-table/issues",
+  "component": "table",
+  "targetAttribute": "_table",
+  "displayName": "Table",
+  "description": "A table component for the Adapt framework",
+  "main": "/js/adapt-table.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}

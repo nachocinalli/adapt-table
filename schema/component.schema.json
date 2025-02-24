@@ -1,0 +1,90 @@
+{
+  "$anchor": "table-component",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$merge": {
+    "source": {
+      "$ref": "component"
+    },
+    "with": {
+      "properties": {
+        "_supportedLayout": {
+          "type": "string",
+          "title": "Supported layout",
+          "default": "both",
+          "enum": ["full-width", "half-width", "both"],
+          "_adapt": {
+            "editorOnly": true
+          }
+        },
+        "instruction": {
+          "type": "string",
+          "title": "Instruction",
+          "default": "",
+          "_adapt": {
+            "translatable": true
+          }
+        },
+        "propName": {
+          "type": "string",
+          "required": true,
+          "default": "",
+          "inputType": "Text",
+          "validators": [],
+          "translatable": true
+        },
+        "_showInputs": {
+          "type": "boolean",
+          "required": true,
+          "default": true,
+          "title": "Show Inputs",
+          "inputType": "Checkbox",
+          "validators": [],
+          "help": "Show the inputs"
+        },
+        "_items": {
+          "type": "array",
+          "required": true,
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "required": true,
+                "default": "",
+                "inputType": "Text",
+                "validators": [],
+                "translatable": true
+              },
+              "_props": {
+                "type": "array",
+                "required": true,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "required": true,
+                      "default": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    },
+                    "value": {
+                      "type": "string",
+                      "required": true,
+                      "default": "",
+                      "inputType": "Text",
+                      "validators": [],
+                      "translatable": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import components from 'core/js/adapt';
+import components from 'core/js/components';
 import TableView from './TableView';
 import TableModel from './TableModel';
 
